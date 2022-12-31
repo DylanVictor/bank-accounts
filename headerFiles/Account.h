@@ -3,11 +3,8 @@
 #include <string>
 #include "I_Printable.h"
 
-//Abstract class
 class Account : public I_Printable {
 private:
-    //static constexpr const char* def_name = "Unnamed Account";
-    //static constexpr double def_balance = 0.0;
 protected:
     std::string name;
     double balance;
