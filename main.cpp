@@ -84,9 +84,12 @@ int main() {
 
     delete default_chk1;
     delete default_chk2;
+    delete default_chk3;
     delete default_svg1;
     delete default_svg2;
+    delete default_svg3;
     delete default_trs1;
     delete default_trs2;
+    delete default_trs3;
     return 0;
 }
