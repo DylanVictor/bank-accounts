@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
-#include "Account.h"
-#include "Savings_Account.h"
-#include "Checking_Account.h"
-#include "Trust_Account.h"
-#include "Account_Util.h"
+#include "headerFiles/Account.h"
+#include "headerFiles/Savings_Account.h"
+#include "headerFiles/Checking_Account.h"
+#include "headerFiles/Trust_Account.h"
+#include "headerFiles/Account_Util.h"
 
 int main() {
     std::cout.precision(2);
