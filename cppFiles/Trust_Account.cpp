@@ -1,4 +1,4 @@
-#include "Trust_Account.h"
+#include "../headerFiles/Trust_Account.h"
 
 Trust_Account::Trust_Account(std::string name, double balance, double int_rate)
     : Savings_Account{ name, balance, int_rate }, num_withdrawals{ 0 } {
